@@ -45,7 +45,7 @@ header{ /*the header background*/
     margin-left: 15px;
 }
 
-.navbar .menu li a:hover {
+.navbar a:hover {
  color: #00b39b;
 }
 .header> ul{
@@ -56,6 +56,41 @@ header{ /*the header background*/
     font-style: 20px;
     color: grey; 
 }
+
+/*dropdown*/
+
+.dropdown-content ul{
+    list-style-type: none;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(253, 252, 252);
+    width:300px;
+    color:   #00b39b;
+    line-height: 30px;
+    font-size: 17px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 3px;
+    cursor: pointer
+
+}
+
+.menu:hover .dropdown-content{
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    cursor: pointer
+}
+
+
+
 
 /*Introd styling*/
 
@@ -324,21 +359,19 @@ h2 {
 }
  
 .button-1 {
-    
     border-radius: 5px;
     border-style: none;
     color: white;
-    background-color: rgb(13, 137, 168);
+    background-color: #3d83df;
     height:30px;
-    width:8;
+    width:118px;
     padding: 10px 20px 15px 20px;
     text-align: center;
     display: inline-block;
     font-size: 10px;
     font-weight: bold;
     margin: 1.8em 17px;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
 /*Footer*/
